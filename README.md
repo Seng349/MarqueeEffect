@@ -1,3 +1,3 @@
 # Marquee Effect
 
-> This is a Layer tell you how to make Marquee Effect.
+> This is a layer tell you how to make Marquee Effect.

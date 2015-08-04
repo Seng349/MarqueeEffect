@@ -10,4 +10,18 @@
 
 @interface MarqueeLayer : CAShapeLayer
 
+#pragma mark -
+#pragma mark Animation
+/**
+ *  
+ *
+ */
+- ( void ) OnStartAnimation;
+
+/**
+ *  
+ *
+ */
+- ( void ) OnExitAnimation;
+
 @end

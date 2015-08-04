@@ -15,6 +15,7 @@
 		BDDABB7E1B6F409E008071E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDABB7C1B6F409E008071E4 /* LaunchScreen.storyboard */; };
 		BDDABB891B6F409F008071E4 /* MarqueeEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDABB881B6F409F008071E4 /* MarqueeEffectTests.m */; };
 		BDDABB941B6F409F008071E4 /* MarqueeEffectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDABB931B6F409F008071E4 /* MarqueeEffectUITests.m */; };
+		BDDABBA31B6F4169008071E4 /* MarqueeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDABBA21B6F4169008071E4 /* MarqueeLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BDDABB8F1B6F409F008071E4 /* MarqueeEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarqueeEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDABB931B6F409F008071E4 /* MarqueeEffectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarqueeEffectUITests.m; sourceTree = "<group>"; };
 		BDDABB951B6F409F008071E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDABBA11B6F4169008071E4 /* MarqueeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarqueeLayer.h; sourceTree = "<group>"; };
+		BDDABBA21B6F4169008071E4 /* MarqueeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarqueeLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				BDDABB721B6F409E008071E4 /* AppDelegate.m */,
 				BDDABB741B6F409E008071E4 /* ViewController.h */,
 				BDDABB751B6F409E008071E4 /* ViewController.m */,
+				BDDABBA11B6F4169008071E4 /* MarqueeLayer.h */,
+				BDDABBA21B6F4169008071E4 /* MarqueeLayer.m */,
 				BDDABB771B6F409E008071E4 /* Main.storyboard */,
 				BDDABB7A1B6F409E008071E4 /* Assets.xcassets */,
 				BDDABB7C1B6F409E008071E4 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				BDDABB761B6F409E008071E4 /* ViewController.m in Sources */,
 				BDDABB731B6F409E008071E4 /* AppDelegate.m in Sources */,
+				BDDABBA31B6F4169008071E4 /* MarqueeLayer.m in Sources */,
 				BDDABB701B6F409E008071E4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,7 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MarqueeEffect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.seng.www.MarqueeEffect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingsoft.www.office.MarqueeEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -426,7 +432,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MarqueeEffect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.seng.www.MarqueeEffect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingsoft.www.office.MarqueeEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

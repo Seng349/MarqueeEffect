@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "MarqueeLayer.h"
 
 @interface ViewController ()
+{
+    MarqueeLayer* mMarquee;
+}
 
 @end
 
@@ -16,7 +20,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [ UIColor darkGrayColor ];
+    
+    mMarquee = [ [ MarqueeLayer alloc ] init ];
+    [ mMarquee OnStartAnimation ];
+    [ self.view.layer addSublayer: mMarquee ];
+}
+
+- (void)viewWillLayoutSubviews
+{
+    mMarquee.frame = CGRectMake(50, 50, 100, 100);
 }
 
 - (void)didReceiveMemoryWarning {
